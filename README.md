@@ -7,20 +7,22 @@
 
 
 ### User login page:
-![login_page](https://github.com/Persie-O/PercyFlix/assets/112958325/8c0b1634-48b2-4c7f-abc9-2670178cde84)
+![login_page](https://github.com/Persie-O/PercyFlix/assets/112958325/f7307821-a9ff-43c5-a307-dd7e8aa290b0)
 
 ### Regular user landing page:
-![Regular_user](https://github.com/Persie-O/PercyFlix/assets/112958325/3193f72e-421b-41c5-9fe3-5da89389cb74)
-![Screenshot from 2023-09-04 10-30-06](https://github.com/Persie-O/PercyFlix/assets/112958325/9fa4ed64-e3f0-43b7-aa34-c88cf5a733d5)
+![Regular_user](https://github.com/Persie-O/PercyFlix/assets/112958325/c48f4d23-26cf-49a3-b50b-449ac6b33c8e)
+![Screenshot from 2023-09-04 10-30-06](https://github.com/Persie-O/PercyFlix/assets/112958325/85042863-9a23-48ad-9b09-506ccca0ec48)
+
 
 ### staff landing page
-#### Staff dashboard for managing videos and uploading respectively:
-![staff1](https://github.com/Persie-O/PercyFlix/assets/112958325/1460d09f-2321-42fc-992f-5a7af2abecdc)
-![staff2](https://github.com/Persie-O/PercyFlix/assets/112958325/bf6fc531-c1d7-4303-81bd-2592e01cf150)
+#### Staff dashboard for managing videos and uploading, respectively:
+![staff1](https://github.com/Persie-O/PercyFlix/assets/112958325/17b265b9-d86e-4564-aee2-20a5995f498b)
+![staff2](https://github.com/Persie-O/PercyFlix/assets/112958325/81bf3af1-19dc-4d84-80a6-61fcd4fd9102)
 
-#### How staffs will view videos page:
-![staff3](https://github.com/Persie-O/PercyFlix/assets/112958325/f4961fa0-7179-4a0c-bebf-2c055b409fd0)
-![staff4](https://github.com/Persie-O/PercyFlix/assets/112958325/39011a0a-7d79-4598-b8cf-74d68410cada)
+
+#### How staff will view the videos page:
+![staff3](https://github.com/Persie-O/PercyFlix/assets/112958325/d5040b30-7c4a-4d01-9eb1-cc942c322575)
+![staff4](https://github.com/Persie-O/PercyFlix/assets/112958325/e5ff8ebd-f675-4b9a-9889-063e47ec3b75)
 
 
 ## Table of Contents
