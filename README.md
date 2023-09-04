@@ -1,3 +1,6 @@
+## A humble note:
+- The project is not yet over, as I am adding more features to it.
+
 # PercyFlix (Netflix Clone App (Localhost) - Django)
 ### User registration page:
 ![Registration_page](https://github.com/Persie-O/PercyFlix/assets/112958325/dae5130f-16b8-4183-99f1-f41a88c8cf45)
