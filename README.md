@@ -3,7 +3,7 @@
 
 # PercyFlix (Netflix Clone App (Localhost) - Django)
 ### User registration page:
-![Uploading Registration_page.png…]()
+![Registration_page](https://github.com/Persie-O/PercyFlix/assets/112958325/122311c8-7c83-42b8-b8fa-e9725b8f438b)
 
 
 ### User login page:
