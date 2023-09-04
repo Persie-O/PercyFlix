@@ -1,0 +1,29 @@
+
+
+
+
+
+input {
+  padding: 10px 50px;
+  margin: 20px;
+  border: 1px solid #f53d3d;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.reset-password{
+  color: rgb(63, 244, 27);
+  font-size: 18;
+  font-style: italic;
+  margin: 20px;
+}
+.reset:hover{
+  background-color: #d81313;
+}
+.message {
+  padding: 5px 5px;
+  margin-bottom: 10px;
+  color: #ff4141;
+}
+
+

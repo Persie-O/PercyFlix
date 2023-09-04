@@ -1,0 +1,72 @@
+{% extends 'user_account/main.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="login-contain">
+    <div class="logo">
+        <img class="img-fluid mx-auto d-block" src="{% static 'user_account/Screenshot from 2023-08-15 21-12-23.png' %}" alt="Percy logo" width="72" height="72">
+    </div>
+    <div>
+        {% for message in messages %}
+            <p>{{message}}</p>
+        {% endfor %}
+    </div>
+    <form method="POST">
+        {% csrf_token %}
+        <div class="input-group mb-3">
+            <div class="input-group-append">
+                <span class="input-group-text icon"><i class="fas fa-user"></i></span>
+            </div>
+            <input type="text" name="username" placeholder="Username..." class="form-control" >
+        </div>
+        <div class="input-group mb-2">
+            <div class="input-group-append">
+                <span class="input-group-text icon"><i class="fas fa-key"></i></span>
+            </div>
+                <input type="password" name="password" placeholder="Password..." class="form-control" >
+        </div>
+
+            <div class="d-flex justify-content-center mt-3">
+                 <input class="btn login_btn" type="submit" value="Login">
+               </div>
+    </form>
+
+    <div class="mt-4 loginB">
+        <div class="d-flex justify-content-center links">
+            Forgotten account password? <a href="#" class="ml-2">Reset</a>
+        </div>
+    </div>
+
+    <div class="mt-4 loginB">
+        <div class="d-flex justify-content-start links">
+            Don't have an account? <a href="{% url 'register' %}" class="ml-2">Signup here</a>
+        </div>
+    </div>
+
+    
+    
+    
+</div>
+<script>
+    // Add a function to remove the messages after 2 seconds
+    function removeMessages() {
+        var messages = document.querySelectorAll('.message');
+        messages.forEach(function(message) {
+            setTimeout(function() {
+                message.style.display = 'none';
+            }, 2000);  // Set the time in milliseconds (2 seconds)
+        });
+    }
+    
+    // Call the function when the page loads
+    window.onload = removeMessages;
+</script>
+
+{% endblock content %}
+
+
+
+
+

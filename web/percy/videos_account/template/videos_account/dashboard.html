@@ -1,0 +1,61 @@
+{% extends 'videos_account/videos.html' %}
+
+{% block content %}
+
+<div class="navbar">
+    <a href="{% url 'videos' %}">Go to videos page</a>
+    <a href="{% url 'upload_content' %}">Uplaod videos</a>
+    <a href="{% url 'manage_content' %}">Manage Content</a>
+    <a class="logout-link" href="{% url 'logout' %}">Logout</a>
+
+</div>
+<h2>Staff Dashboard</h2>
+
+<div>
+    {% if messages %}
+    <div id="messages-container">
+    {% for message in messages %}
+        <div class="message">{{ message }}</div>
+    {% endfor %}
+    </div>    
+    {% endif %}
+    <script>
+        // Add a function to remove the messages after 2 seconds
+        function removeMessages() {
+            var messages = document.querySelectorAll('.message');
+            messages.forEach(function(message) {
+                setTimeout(function() {
+                    message.style.display = 'none';
+                }, 2000);  // Set the time in milliseconds (2 seconds)
+            });
+        }
+    
+        // Call the function when the page loads
+        window.onload = removeMessages;
+    </script>
+</div>
+
+<div>
+    <h1>Series</h1>
+    <div class="series-list">
+        {% for series_data in series_seasons_episodes %}
+            <div class="series-item">
+                <img src="{{ series_data.series.poster_path.url }}" alt="{{ series_data.series.title }} Poster" class="series-poster">
+                <h3>{{ series_data.series.title }}</h3>
+            </div>
+        {% endfor %}
+    </div>
+
+    <h1>Movies</h1>
+    <div class="movie-list">
+        {% for movie_data in movie_list %}
+            <div class="movie-item">
+                <img src="{{ movie_data.poster_path.url }}" alt="{{ movie_data.title }} Poster">
+                <h2>{{ movie_data.title }}</h2>
+            </div>
+        {% endfor %}
+    </div>
+    
+    
+</div>
+{% endblock %}

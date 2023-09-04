@@ -1,0 +1,32 @@
+{% extends 'videos_account/videos.html' %}
+
+{% block content %}
+<div class="navbar">
+    <a href="{% url 'dashboard' %}">Go to staffs dashboard</a>
+    <a href="{% url 'upload_content' %}">Uplaod videos</a>
+    <a href="{% url 'videos' %}">Go to videos page</a>
+
+</div>
+<h2>Manage Content</h2>
+<div>
+  {% for message in messages %}
+      <div class="message">{{ message }}</div>
+  {% endfor %}
+</div>   
+
+
+<script>
+  // Add a function to remove the messages after 2 seconds
+  function removeMessages() {
+      var messages = document.querySelectorAll('.message');
+      messages.forEach(function(message) {
+          setTimeout(function() {
+              message.style.display = 'none';
+          }, 2000);  // Set the time in milliseconds (2 seconds)
+      });
+  }
+  
+  // Call the function when the page loads
+  window.onload = removeMessages;
+</script>
+{% endblock %}

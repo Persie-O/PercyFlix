@@ -1,0 +1,240 @@
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'videos_account/videos.css' %}">
+    <style>
+        .navbar {
+    overflow: hidden;
+    background-color: #94c833 !important; /* Change to your preferred color */
+    padding: 40px 16px !important;
+}
+
+/* Style the navbar links */
+.navbar a {
+    float: left;
+    display: block !important;
+    color: rgb(10, 10, 10) !important;
+    text-align: center;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    text-decoration: none;
+    margin-right: 20px !important;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #3b1184; /* Change to your preferred hover color */
+    color: black;
+}
+.logout-link {
+    float: right !important;
+}
+.logout-link:hover{
+    background-color: red !important;
+}
+.staffs-button{
+    float: right !important;
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(245, 41, 10) !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    margin: 5px !important;
+}
+.staffs-button:hover{
+    background-color: rgb(37, 77, 255);
+    color: black;
+}
+
+.logout-button {
+    color: rgb(9, 9, 9) !important;
+    background-color: red !important;
+    padding: 2px !important;
+    border-radius: 5px !important;
+    float: right !important;
+}
+
+.movie-list, .series-list {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+        }
+        .movie-list::-webkit-scrollbar,
+        .series-list::-webkit-scrollbar {
+            display: none;
+        }
+
+        .movie-item, .series-item {
+            flex: 0 0 auto;
+            width: 300px;
+            margin-right: 10px;
+            border: 1px solid #000000;
+            box-shadow: 0 2px 4px rgba(103, 102, 102, 0.1);
+            padding: 10px;
+        }
+
+        .movie-details, .series-details {
+            margin-bottom: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        <!--hanndle main video part-->
+        .main-image-container, .trailer-container {
+    width: 95%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-image {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 800px !important;
+}
+
+.main-video-image {
+    width: 100% !important;
+    height: 800px; /* Maintain image aspect ratio */
+    object-fit: cover; /* Scale and crop the image to fit */
+}
+
+.image-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background for readability */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.play-icon {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+        .play-icon:hover {
+        background-color: #b5070e;
+        }
+        .movie-c{
+            display: flex !important;
+            flex-wrap: nowrap;
+        }
+        .movie-c1, .movie-c2{
+            height: 100vh;
+            padding: 400px !important;
+            background-color: #3a3636 !important;
+            margin: 50px !important;
+            align-items: normal !important;
+            border-radius: 50px !important;
+        }
+
+
+    </style>
+</head>
+<body>
+    {% block content %}
+    <div class="logout-button">
+        <a class="logout-button" href="{% url 'logout' %}">Logout</a></div>
+    </div>
+    
+    
+    <div class="main-image-container">
+        <div class="main-image">
+            <img class="main-video-image" src="{{ random_poster.poster_path.url }}" alt="{{ random_poster.title }}" onclick="playTrailer('{{ random_poster.video_file.url }}', document.querySelector('.trailer-container'))">
+            <div class="image-details">
+                <h3>{{ random_poster.title }}</h3>
+                <button class="play-icon">Play</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    {% if user.is_authenticated %}
+        {% if user.is_staff %}
+            <div>
+                <button class="staffs-button"><a href="{% url 'dashboard' %}">Staffs Dashboard</a></button>
+            </div>
+        {% elif user.is_superuser %}
+            <div>
+                <button><a href="{% url 'admin' %}">Admins Dashboard</a></button>
+            </div>
+        {% endif %}
+    {% endif %}
+    
+
+
+<!-- Series and Movies content (initially visible) -->
+<h2>Movies</h2>
+<div class="movie-list">
+    {% for movie_data in movie_list %}
+    <div class="movie-item">
+        <img src="{{ movie_data.poster_path.url }}" alt="{{ movie_data.title }} Poster" onclick="playTrailer('{{ movie_data.video_file.url }}', document.querySelector('.trailer-container'))">
+        <h3 class="movie-title">{{ movie_data.title }}</h3>
+    </div>
+    {% endfor %}
+</div>
+<h2>Series</h2>
+<div class="series-list">
+    {% for series_data in series_seasons_episodes %}
+    <div class="series-item">
+        <img src="{{ series_data.series.poster_path.url }}" alt="{{ series_data.series.title }} Poster" onclick="playTrailer('{{ series_data.series.trailer.url }}', document.querySelector('.trailer-container'))">
+        <h3 class="series-title">{{ series_data.series.title }}</h3>
+    </div>
+    {% endfor %}
+</div>
+<script>
+    // Function to play the trailer when an image is clicked
+    function playTrailer(videoFile, trailerContainer) {
+        var videoElement = document.createElement('video');
+        videoElement.src = videoFile;
+        videoElement.autoplay = true;
+        videoElement.controls = true;
+
+        // Hide other content and show the trailer
+        var mainVideoContainer = document.querySelector('.main-image-container');
+        mainVideoContainer.innerHTML = '';
+        mainVideoContainer.appendChild(videoElement);
+
+        // Show the trailer container
+        trailerContainer.style.display = 'block';
+    }
+
+    // Function to go back to the poster and hide the trailer
+    function hideTrailer(posterPath, trailerContainer) {
+        // Show the poster image
+        var mainVideoContainer = document.querySelector('.main-image-container');
+        var posterImage = document.createElement('img');
+        posterImage.src = posterPath;
+        mainVideoContainer.innerHTML = '';
+        mainVideoContainer.appendChild(posterImage);
+
+        // Hide the trailer container
+        trailerContainer.style.display = 'none';
+    }
+</script>
+
+
+    {% endblock content %}
+</html>

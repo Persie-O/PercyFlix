@@ -1,0 +1,96 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'user_account/main.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+
+body{
+  background-color: #000000;
+  display: flex !important;
+  justify-content: center !important;
+  align-content: center !important;
+  font-family: Arial, sans-serif !important;
+}
+.logo{
+  display: flex !important;
+  justify-content: center !important;
+
+}
+
+        .login-contain{
+          margin: 10% !important;
+          padding: 80px 50px !important;
+          background-color: rgb(52, 53, 55) !important;
+          justify-content: center !important;
+          align-items: center !important;
+
+        }
+        .register-contain{
+          margin: 10% !important;
+          padding: 30px 60px !important;
+          background-color: rgb(52, 53, 55) !important;
+          justify-content: center !important;
+          align-items: center !important;
+
+        }
+         .login_btn{
+          width: 70%;
+          background: #fe1515 !important;
+          color: rgb(0, 0, 0) !important;
+          font-size: 14px !important;
+          font-weight: bold !important;
+          text-align: center !important;
+          padding: 10px 1px !important;
+          border-radius: 5px !important;
+         }
+        
+        .register_btn {
+          width: 70%;
+          background: #2e27fb !important;
+          color: rgb(0, 0, 0) !important;
+          font-size: 14px !important;
+          font-weight: bold !important;
+          text-align: center !important;
+          padding: 10px 1px !important;
+          border-radius: 5px !important;
+        }
+        .login_btn:focus {
+          box-shadow: none !important;
+          outline: 0px !important;
+        }
+
+        .loginB{
+          margin: 20px !important;
+        }
+        .input-group {
+          position: relative;
+        }
+        
+        .input-group-text {
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        
+        .form-control {
+          padding-left: 40px; /* To create space for the icon */
+        }
+        .icon{
+          color: black;
+          background-color: rgb(11, 255, 11) !important;
+          padding: 10px 3.5px !important;
+        }
+    </style>
+</head>
+  <body>
+    {% block content %}
+
+    {% endblock content %}
+  </body>
+</html>
+
+

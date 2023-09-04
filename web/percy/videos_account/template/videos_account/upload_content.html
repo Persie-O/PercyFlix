@@ -1,0 +1,67 @@
+{% extends 'videos_account/videos.html' %}
+
+{% block content %}
+<div class="navbar">
+  <a href="{% url 'dashboard' %}">Go to staffs dashboard</a>
+  <a href="{% url 'manage_content' %}">Manage Content</a>
+  <a href="{% url 'videos' %}">Go to videos page</a>
+</div>
+
+<div class="container">
+    <h2>Upload Content</h2>
+
+    {% if messages %}
+    <div class="alert alert-info">
+        {% for message in messages %}
+        {{ message }}
+        {% endfor %}
+    </div>
+    {% endif %}
+    
+<div class="movie-c">
+            <!-- Movie Upload Form -->
+    <div class="movie-c1">
+        <h2>Movie Form</h2>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ movie_form.as_p }}
+            <button type="submit" name="movie_form">Upload Movie</button>
+        </form>    
+    </div>
+    <!-- Episode Upload Form -->
+    <div class="movie-c2">
+        <h2>Series Form</h2>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ series_form.as_p }}
+            <button type="submit" name="series_form">Upload series</button>
+        </form>
+        <h2>Season Form</h2>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ season_form.as_p }}
+            <button type="submit" name="season_form">Upload season</button>
+        </form>
+        <h2>Episode Form</h2>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ episode_form.as_p }}
+            <button type="submit" name="episode_form">Upload Episode</button>
+        </form>       
+    </div>
+</div>
+<script>
+  // Add a function to remove the messages after 2 seconds
+  function removeMessages() {
+      var messages = document.querySelectorAll('.message');
+      messages.forEach(function(message) {
+          setTimeout(function() {
+              message.style.display = 'none';
+          }, 2000);  // Set the time in milliseconds (2 seconds)
+      });
+  }
+  
+  // Call the function when the page loads
+  window.onload = removeMessages;
+</script>
+{% endblock %}

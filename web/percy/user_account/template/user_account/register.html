@@ -1,0 +1,80 @@
+{% extends 'user_account/main.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="register-contain">
+    <div class="logo">
+        <img class="img-fluid mx-auto d-block" src="{% static 'user_account/Screenshot from 2023-08-15 21-12-23.png' %}" alt="Percy logo" width="72" height="72">
+    </div>
+    <div>
+        {% for message in messages %}
+            <p>{{message}}</p>
+        {% endfor %}
+    </div>
+    <form method="post">
+        {% csrf_token %}
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text icon"><i class="fas fa-user"></i></span>
+            </div>
+            {{ form.username }}
+        </div>
+        
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text icon"><i class="fas fa-envelope"></i></span>
+            </div>
+            {{ form.email }}
+        </div>
+        
+        <div class="input-group mt-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text icon"><i class="fas fa-lock"></i></span>
+            </div>
+            {{ form.password1 }}
+        </div>
+        
+        <div class="input-group mt-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text icon"><i class="fas fa-lock"></i></span>
+            </div>
+            {{ form.password2 }}
+        </div>
+        
+        <div class="d-flex justify-content-center mt-3 login_container">
+            <input class="btn register_btn" type="submit" value="Register Account">
+        </div>
+    </form>    
+
+    <div class="mt-4 loginB">
+        <div class="d-flex justify-content-center links">
+            Already have an account? <a href="{% url 'login-User' %}" class="ml-2">Login</a>
+        </div>
+    </div>
+</div>
+<script>
+    // Add a function to remove the messages after 2 seconds
+    function removeMessages() {
+        var messages = document.querySelectorAll('.message');
+        messages.forEach(function(message) {
+            setTimeout(function() {
+                message.style.display = 'none';
+            }, 2000);  // Set the time in milliseconds (2 seconds)
+        });
+    }
+    
+    // Call the function when the page loads
+    window.onload = removeMessages;
+</script>
+{% endblock content %}
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+{% extends 'user_account/main.html' %}
+
+{% block content %}
+
+<form method="post" action="{% url 'password_reset_user' %}" href="password_reset_user">
+    {% csrf_token %}
+
+    <div>
+        <input type="email" name="email" placeholder="Enter your email">
+    </div>    
+    <div" class="reset">
+        <button type="submit">Reset Password</button>
+    </div">
+
+<script>
+    setTimeout(function() {
+        var messagesContainer = document.getElementById('messages-container');
+        if (messagesContainer) {
+            messagesContainer.style.display = 'none';
+        }
+    }, 2500); // 2500 milliseconds = 2.5 seconds
+</script>
+
+
+{% endblock content %}

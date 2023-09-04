@@ -1,0 +1,1028 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "videos",
+        "importPath": "videos_account.views",
+        "description": "videos_account.views",
+        "isExtraImport": true,
+        "detail": "videos_account.views",
+        "documentation": {}
+    },
+    {
+        "label": "staff_dashboard",
+        "importPath": "videos_account.views",
+        "description": "videos_account.views",
+        "isExtraImport": true,
+        "detail": "videos_account.views",
+        "documentation": {}
+    },
+    {
+        "label": "upload_content",
+        "importPath": "videos_account.views",
+        "description": "videos_account.views",
+        "isExtraImport": true,
+        "detail": "videos_account.views",
+        "documentation": {}
+    },
+    {
+        "label": "manage_content",
+        "importPath": "videos_account.views",
+        "description": "videos_account.views",
+        "isExtraImport": true,
+        "detail": "videos_account.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "importPath": "django.contrib.auth.admin",
+        "description": "django.contrib.auth.admin",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.admin",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "importPath": "django.contrib.auth.admin",
+        "description": "django.contrib.auth.admin",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.admin",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "ModelForm",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "user_passes_test",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "user_passes_test",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "csrf_protect",
+        "importPath": "django.views.decorators.csrf",
+        "description": "django.views.decorators.csrf",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "TMDb",
+        "importPath": "tmdbv3api",
+        "description": "tmdbv3api",
+        "isExtraImport": true,
+        "detail": "tmdbv3api",
+        "documentation": {}
+    },
+    {
+        "label": "Movie",
+        "importPath": "tmdbv3api",
+        "description": "tmdbv3api",
+        "isExtraImport": true,
+        "detail": "tmdbv3api",
+        "documentation": {}
+    },
+    {
+        "label": "TV",
+        "importPath": "tmdbv3api",
+        "description": "tmdbv3api",
+        "isExtraImport": true,
+        "detail": "tmdbv3api",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "percy.percy.asgi",
+        "description": "percy.percy.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "percy.percy.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "AuthRouter",
+        "kind": 6,
+        "importPath": "percy.percy.routers",
+        "description": "percy.percy.routers",
+        "peekOfCode": "class AuthRouter:\n    \"\"\"\n    A router to control all database operations on models in the\n    auth and contenttypes applications.\n    \"\"\"\n    route_app_labels = {'auth', 'contenttypes', 'admin', 'sessions'}\n    def db_for_read(self, model, **hints):\n        \"\"\"\n        Attempts to read auth and contenttypes models go to auth_db.\n        \"\"\"",
+        "detail": "percy.percy.routers",
+        "documentation": {}
+    },
+    {
+        "label": "VideosAppRouter",
+        "kind": 6,
+        "importPath": "percy.percy.routers",
+        "description": "percy.percy.routers",
+        "peekOfCode": "class VideosAppRouter:\n    route_app_labels = {'videos_account'}\n    def db_for_read(self, model, **hints):\n        if model._meta.app_label in self.route_app_labels:\n            return \"videos_db\"\n        return None\n    def db_for_write(self, model, **hints):\n        if model._meta.app_label in self.route_app_labels:\n            return \"videos_db\"\n        return None",
+        "detail": "percy.percy.routers",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-v5ttjnf_phc7o*r!^&*%ihww+o57!3mwafw)e7yzzvv%*fme$l'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-v5ttjnf_phc7o*r!^&*%ihww+o57!3mwafw)e7yzzvv%*fme$l'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    #my apps",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    #my apps\n    'user_account',\n    'videos_account',",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'percy.urls'",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "ROOT_URLCONF = 'percy.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [\n            os.path.join(BASE_DIR, 'template'),\n            os.path.join(BASE_DIR, 'user_account/template'),\n            os.path.join(BASE_DIR, 'videos_account/template'),\n        ],\n        'APP_DIRS': True,",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [\n            os.path.join(BASE_DIR, 'template'),\n            os.path.join(BASE_DIR, 'user_account/template'),\n            os.path.join(BASE_DIR, 'videos_account/template'),\n        ],\n        'APP_DIRS': True,\n        'OPTIONS': {",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'percy.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASE_ROUTERS = [\n    'percy.routers.AuthRouter',\n    'percy.routers.VideosAppRouter',\n]\nDATABASES = {\n    #for storing user in user_account app\n    'default': {},",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_ROUTERS",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "DATABASE_ROUTERS = [\n    'percy.routers.AuthRouter',\n    'percy.routers.VideosAppRouter',\n]\nDATABASES = {\n    #for storing user in user_account app\n    'default': {},\n    'auth_db': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "DATABASES = {\n    #for storing user in user_account app\n    'default': {},\n    'auth_db': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    },\n    #for storing videos in videos_account,\n    'videos_db': {\n        'ENGINE': 'django.db.backends.mysql',",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nAUTHENTICATION_BACKENDS = (\n    'django.contrib.auth.backends.ModelBackend',\n)\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nAUTHENTICATION_BACKENDS = (\n    'django.contrib.auth.backends.ModelBackend',\n)\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTHENTICATION_BACKENDS",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = (\n    'django.contrib.auth.backends.ModelBackend',\n)\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIR = [\n    os.path.join(BASE_DIR, 'static'),",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIR = [\n    os.path.join(BASE_DIR, 'static'),\n    os.path.join(BASE_DIR, 'user_account/static'),",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIR = [\n    os.path.join(BASE_DIR, 'static'),\n    os.path.join(BASE_DIR, 'user_account/static'),\n    os.path.join(BASE_DIR, 'videos_account/static'),",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIR = [\n    os.path.join(BASE_DIR, 'static'),\n    os.path.join(BASE_DIR, 'user_account/static'),\n    os.path.join(BASE_DIR, 'videos_account/static'),\n]",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIR = [\n    os.path.join(BASE_DIR, 'static'),\n    os.path.join(BASE_DIR, 'user_account/static'),\n    os.path.join(BASE_DIR, 'videos_account/static'),\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIR = [\n    os.path.join(BASE_DIR, 'static'),\n    os.path.join(BASE_DIR, 'user_account/static'),\n    os.path.join(BASE_DIR, 'videos_account/static'),\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n#added by me",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIR",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "STATICFILES_DIR = [\n    os.path.join(BASE_DIR, 'static'),\n    os.path.join(BASE_DIR, 'user_account/static'),\n    os.path.join(BASE_DIR, 'videos_account/static'),\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n#added by me\nLOGIN_REDIRECT_URL = 'videos'",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n#added by me\nLOGIN_REDIRECT_URL = 'videos'\nLOGIN_URL = '/'",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = 'videos'\nLOGIN_URL = '/'",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "percy.percy.settings",
+        "description": "percy.percy.settings",
+        "peekOfCode": "LOGIN_URL = '/'",
+        "detail": "percy.percy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "percy.percy.urls",
+        "description": "percy.percy.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls, name='admin'),\n    path('videos/', videos, name='videos'),\n    path('', login_view, name='login-User'),\n    path('register/',signup_view, name=\"register\"),\n    path('logout/', logout_view, name=\"logout\"),\n    # Password reset URLs\n    #path('reset_password/', reset_password, name='reset_password'),\n    #path('password_reset_user/', custom_password_reset, name='password_reset_user'),\n    #staffs urls only",
+        "detail": "percy.percy.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "percy.percy.wsgi",
+        "description": "percy.percy.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "percy.percy.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserAdmin",
+        "kind": 6,
+        "importPath": "percy.user_account.admin",
+        "description": "percy.user_account.admin",
+        "peekOfCode": "class CustomUserAdmin(UserAdmin):\n    add_form = UserCreationForm  # Use the default UserCreationForm\n    list_display = ('username', 'email', 'date_joined', 'last_login', 'is_staff', 'is_active')\n# Register User with CustomUserAdmin\nadmin.site.unregister(User)\nadmin.site.register(User, CustomUserAdmin)\n'''\nfrom django.contrib import admin\nfrom django.contrib.auth.admin import UserAdmin\nfrom django.contrib.auth.models import User",
+        "detail": "percy.user_account.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserAdmin",
+        "kind": 6,
+        "importPath": "percy.user_account.admin",
+        "description": "percy.user_account.admin",
+        "peekOfCode": "class CustomUserAdmin(UserAdmin):\n    form = SignUpForm\n    list_display = ('username', 'email', 'date_joined', 'last_login', 'is_staff', 'is_active')\nadmin.site.unregister(User)\nadmin.site.register(User, CustomUserAdmin)\n'''",
+        "detail": "percy.user_account.admin",
+        "documentation": {}
+    },
+    {
+        "label": "UserAccountConfig",
+        "kind": 6,
+        "importPath": "percy.user_account.apps",
+        "description": "percy.user_account.apps",
+        "peekOfCode": "class UserAccountConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'user_account'",
+        "detail": "percy.user_account.apps",
+        "documentation": {}
+    },
+    {
+        "label": "SignUpForm",
+        "kind": 6,
+        "importPath": "percy.user_account.forms",
+        "description": "percy.user_account.forms",
+        "peekOfCode": "class SignUpForm(UserCreationForm):\n    class Meta:\n        model = User\n        fields = ('username','email', 'password1', 'password2')\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        self.fields['username'].widget.attrs.update({'placeholder': 'Username'})\n        self.fields['email'].widget.attrs.update({'placeholder': 'Email'})\n        self.fields['password1'].widget.attrs.update({'placeholder': 'Password'})\n        self.fields['password2'].widget.attrs.update({'placeholder': 'Confirm Password'})",
+        "detail": "percy.user_account.forms",
+        "documentation": {}
+    },
+    {
+        "label": "SignUpForm",
+        "kind": 6,
+        "importPath": "percy.user_account.forms",
+        "description": "percy.user_account.forms",
+        "peekOfCode": "class SignUpForm(UserCreationForm):\n    class Meta:\n        model = User\n        fields = ['email', 'password1', 'password2']\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        self.fields['email'].widget.attrs.update({'placeholder': 'Email'})\n        self.fields['password1'].widget.attrs.update({'placeholder': 'Password'})\n        self.fields['password2'].widget.attrs.update({'placeholder': 'Confirm Password'})\n'''",
+        "detail": "percy.user_account.forms",
+        "documentation": {}
+    },
+    {
+        "label": "signup_view",
+        "kind": 2,
+        "importPath": "percy.user_account.views",
+        "description": "percy.user_account.views",
+        "peekOfCode": "def signup_view(request):\n    form = SignUpForm()  # Create an instance of the form\n    if request.method == 'POST':\n        form = SignUpForm(request.POST)\n        if form.is_valid():\n            form.save()\n            username = form.cleaned_data['username']\n            messages.success(request, 'Account successfully created for ' + username)\n        return redirect('login-User')\n    context = {'form':form}  # Assign the form to the context",
+        "detail": "percy.user_account.views",
+        "documentation": {}
+    },
+    {
+        "label": "login_view",
+        "kind": 2,
+        "importPath": "percy.user_account.views",
+        "description": "percy.user_account.views",
+        "peekOfCode": "def login_view(request):\n    if request.method == 'POST':\n        username = request.POST.get('username')\n        password = request.POST.get('password')\n        user = authenticate(request, username=username, password=password)\n        print(\"Authenticated:\", user)\n        if user is not None:\n                login(request, user)\n                if user.is_staff:\n                    messages.success(request, 'Logged in successfully as staff')",
+        "detail": "percy.user_account.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout_view",
+        "kind": 2,
+        "importPath": "percy.user_account.views",
+        "description": "percy.user_account.views",
+        "peekOfCode": "def logout_view(request):\n    logout(request)\n    messages.success(request, 'Logged out successfully. We\\'ll miss you')\n    return redirect('login-User')  # Redirect to the login page",
+        "detail": "percy.user_account.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "percy.videos_account.migrations.0001_initial",
+        "description": "percy.videos_account.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Movie',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title', models.CharField(max_length=255)),",
+        "detail": "percy.videos_account.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "MovieAdmin",
+        "kind": 6,
+        "importPath": "percy.videos_account.admin",
+        "description": "percy.videos_account.admin",
+        "peekOfCode": "class MovieAdmin(admin.ModelAdmin):\n    form = MovieForm\nclass SeriesAdmin(admin.ModelAdmin):\n    form = SeriesForm\nclass SeasonAdmin(admin.ModelAdmin):\n    form = SeasonForm\nclass EpisodeAdmin(admin.ModelAdmin):\n    form = EpisodeForm\nadmin.site.register(Movie, MovieAdmin)\nadmin.site.register(Series, SeriesAdmin)",
+        "detail": "percy.videos_account.admin",
+        "documentation": {}
+    },
+    {
+        "label": "SeriesAdmin",
+        "kind": 6,
+        "importPath": "percy.videos_account.admin",
+        "description": "percy.videos_account.admin",
+        "peekOfCode": "class SeriesAdmin(admin.ModelAdmin):\n    form = SeriesForm\nclass SeasonAdmin(admin.ModelAdmin):\n    form = SeasonForm\nclass EpisodeAdmin(admin.ModelAdmin):\n    form = EpisodeForm\nadmin.site.register(Movie, MovieAdmin)\nadmin.site.register(Series, SeriesAdmin)\nadmin.site.register(Season, SeasonAdmin)\nadmin.site.register(Episode, EpisodeAdmin)",
+        "detail": "percy.videos_account.admin",
+        "documentation": {}
+    },
+    {
+        "label": "SeasonAdmin",
+        "kind": 6,
+        "importPath": "percy.videos_account.admin",
+        "description": "percy.videos_account.admin",
+        "peekOfCode": "class SeasonAdmin(admin.ModelAdmin):\n    form = SeasonForm\nclass EpisodeAdmin(admin.ModelAdmin):\n    form = EpisodeForm\nadmin.site.register(Movie, MovieAdmin)\nadmin.site.register(Series, SeriesAdmin)\nadmin.site.register(Season, SeasonAdmin)\nadmin.site.register(Episode, EpisodeAdmin)",
+        "detail": "percy.videos_account.admin",
+        "documentation": {}
+    },
+    {
+        "label": "EpisodeAdmin",
+        "kind": 6,
+        "importPath": "percy.videos_account.admin",
+        "description": "percy.videos_account.admin",
+        "peekOfCode": "class EpisodeAdmin(admin.ModelAdmin):\n    form = EpisodeForm\nadmin.site.register(Movie, MovieAdmin)\nadmin.site.register(Series, SeriesAdmin)\nadmin.site.register(Season, SeasonAdmin)\nadmin.site.register(Episode, EpisodeAdmin)",
+        "detail": "percy.videos_account.admin",
+        "documentation": {}
+    },
+    {
+        "label": "VideosAccountConfig",
+        "kind": 6,
+        "importPath": "percy.videos_account.apps",
+        "description": "percy.videos_account.apps",
+        "peekOfCode": "class VideosAccountConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'videos_account'",
+        "detail": "percy.videos_account.apps",
+        "documentation": {}
+    },
+    {
+        "label": "MovieForm",
+        "kind": 6,
+        "importPath": "percy.videos_account.forms",
+        "description": "percy.videos_account.forms",
+        "peekOfCode": "class MovieForm(forms.ModelForm):\n    class Meta:\n        model = Movie\n        fields = '__all__'\nclass EpisodeForm(forms.ModelForm):\n    class Meta:\n        model = Episode\n        fields = '__all__'\nclass SeasonForm(forms.ModelForm):\n    class Meta:",
+        "detail": "percy.videos_account.forms",
+        "documentation": {}
+    },
+    {
+        "label": "EpisodeForm",
+        "kind": 6,
+        "importPath": "percy.videos_account.forms",
+        "description": "percy.videos_account.forms",
+        "peekOfCode": "class EpisodeForm(forms.ModelForm):\n    class Meta:\n        model = Episode\n        fields = '__all__'\nclass SeasonForm(forms.ModelForm):\n    class Meta:\n        model = Season\n        fields = '__all__'\nclass SeriesForm(forms.ModelForm):\n    class Meta:",
+        "detail": "percy.videos_account.forms",
+        "documentation": {}
+    },
+    {
+        "label": "SeasonForm",
+        "kind": 6,
+        "importPath": "percy.videos_account.forms",
+        "description": "percy.videos_account.forms",
+        "peekOfCode": "class SeasonForm(forms.ModelForm):\n    class Meta:\n        model = Season\n        fields = '__all__'\nclass SeriesForm(forms.ModelForm):\n    class Meta:\n        model = Series\n        fields = '__all__'\n'''\nfrom django import forms",
+        "detail": "percy.videos_account.forms",
+        "documentation": {}
+    },
+    {
+        "label": "SeriesForm",
+        "kind": 6,
+        "importPath": "percy.videos_account.forms",
+        "description": "percy.videos_account.forms",
+        "peekOfCode": "class SeriesForm(forms.ModelForm):\n    class Meta:\n        model = Series\n        fields = '__all__'\n'''\nfrom django import forms\nfrom .models import Movie, Series, Season, Episode\nclass SeriesForm(forms.ModelForm):\n    class Meta:\n        model = Series",
+        "detail": "percy.videos_account.forms",
+        "documentation": {}
+    },
+    {
+        "label": "SeriesForm",
+        "kind": 6,
+        "importPath": "percy.videos_account.forms",
+        "description": "percy.videos_account.forms",
+        "peekOfCode": "class SeriesForm(forms.ModelForm):\n    class Meta:\n        model = Series\n        fields = '__all__'\nclass SeasonForm(forms.ModelForm):\n    class Meta:\n        model = Season\n        fields = '__all__'\nclass EpisodeForm(forms.ModelForm):\n    class Meta:",
+        "detail": "percy.videos_account.forms",
+        "documentation": {}
+    },
+    {
+        "label": "SeasonForm",
+        "kind": 6,
+        "importPath": "percy.videos_account.forms",
+        "description": "percy.videos_account.forms",
+        "peekOfCode": "class SeasonForm(forms.ModelForm):\n    class Meta:\n        model = Season\n        fields = '__all__'\nclass EpisodeForm(forms.ModelForm):\n    class Meta:\n        model = Episode\n        fields = '__all__'\nclass MovieForm(forms.ModelForm):\n    class Meta:",
+        "detail": "percy.videos_account.forms",
+        "documentation": {}
+    },
+    {
+        "label": "EpisodeForm",
+        "kind": 6,
+        "importPath": "percy.videos_account.forms",
+        "description": "percy.videos_account.forms",
+        "peekOfCode": "class EpisodeForm(forms.ModelForm):\n    class Meta:\n        model = Episode\n        fields = '__all__'\nclass MovieForm(forms.ModelForm):\n    class Meta:\n        model = Movie\n        fields = '__all__'\n'''",
+        "detail": "percy.videos_account.forms",
+        "documentation": {}
+    },
+    {
+        "label": "MovieForm",
+        "kind": 6,
+        "importPath": "percy.videos_account.forms",
+        "description": "percy.videos_account.forms",
+        "peekOfCode": "class MovieForm(forms.ModelForm):\n    class Meta:\n        model = Movie\n        fields = '__all__'\n'''",
+        "detail": "percy.videos_account.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Movie",
+        "kind": 6,
+        "importPath": "percy.videos_account.models",
+        "description": "percy.videos_account.models",
+        "peekOfCode": "class Movie(models.Model):\n    title = models.CharField(max_length=255)\n    release_date = models.DateField()\n    description = models.TextField()\n    cast = models.TextField()\n    trailer = models.FileField(upload_to='trailers/movies/')\n    video_file = models.FileField(upload_to='videos/movies/')\n    poster_path = models.ImageField(upload_to='posters/movies/', blank=True, null=True)\n    def __str__(self):\n        return self.title",
+        "detail": "percy.videos_account.models",
+        "documentation": {}
+    },
+    {
+        "label": "Series",
+        "kind": 6,
+        "importPath": "percy.videos_account.models",
+        "description": "percy.videos_account.models",
+        "peekOfCode": "class Series(models.Model):\n    title = models.CharField(max_length=255)\n    release_date = models.DateField()\n    poster_path = models.ImageField(upload_to='posters/series/', blank=True, null=True)\n    def __str__(self):\n        return self.title\nclass Season(models.Model):\n    series = models.ForeignKey(Series, on_delete=models.CASCADE)\n    season_number = models.PositiveIntegerField()\n    description = models.TextField()",
+        "detail": "percy.videos_account.models",
+        "documentation": {}
+    },
+    {
+        "label": "Season",
+        "kind": 6,
+        "importPath": "percy.videos_account.models",
+        "description": "percy.videos_account.models",
+        "peekOfCode": "class Season(models.Model):\n    series = models.ForeignKey(Series, on_delete=models.CASCADE)\n    season_number = models.PositiveIntegerField()\n    description = models.TextField()\n    cast = models.TextField()\n    trailer = models.FileField(upload_to='trailers/series/seasons/')\n    release_date = models.DateField()\n    def __str__(self):\n        return f\"{self.series.title} - S{self.season_number}\"\nclass Episode(models.Model):",
+        "detail": "percy.videos_account.models",
+        "documentation": {}
+    },
+    {
+        "label": "Episode",
+        "kind": 6,
+        "importPath": "percy.videos_account.models",
+        "description": "percy.videos_account.models",
+        "peekOfCode": "class Episode(models.Model):\n    season = models.ForeignKey(Season, on_delete=models.CASCADE)\n    title = models.CharField(max_length=255)\n    episode_number = models.PositiveIntegerField()\n    description = models.TextField()\n    video_file = models.FileField(upload_to='videos/series/seasons/')\n    release_date = models.DateField()\n    def __str__(self):\n        return f\"S{self.season.season_number}E{self.episode_number}: {self.title}\"",
+        "detail": "percy.videos_account.models",
+        "documentation": {}
+    },
+    {
+        "label": "upload_content",
+        "kind": 2,
+        "importPath": "percy.videos_account.views",
+        "description": "percy.videos_account.views",
+        "peekOfCode": "def upload_content(request):\n    if request.method == 'POST':\n        movie_form = MovieForm(request.POST, request.FILES)\n        series_form = SeriesForm(request.POST, request.FILES)\n        season_form = SeasonForm(request.POST, request.FILES)\n        episode_form = EpisodeForm(request.POST, request.FILES)\n        if 'movie_form' in request.POST and movie_form.is_valid():\n            movie_form.save()\n            messages.success(request, 'Movie uploaded successfully.')\n            return redirect('dashboard')  # Redirect to a success page or another view",
+        "detail": "percy.videos_account.views",
+        "documentation": {}
+    },
+    {
+        "label": "manage_content",
+        "kind": 2,
+        "importPath": "percy.videos_account.views",
+        "description": "percy.videos_account.views",
+        "peekOfCode": "def manage_content(request):\n    return render(request, 'videos_account/manage_content.html')\n@login_required(login_url='login-User')\ndef videos(request):\n    series_list = Series.objects.all()\n    movie_list = Movie.objects.all()\n    # Select a random poster from either movies or series\n    random_poster = None\n    if series_list or movie_list:\n        poster_list = list(series_list) + list(movie_list)",
+        "detail": "percy.videos_account.views",
+        "documentation": {}
+    },
+    {
+        "label": "videos",
+        "kind": 2,
+        "importPath": "percy.videos_account.views",
+        "description": "percy.videos_account.views",
+        "peekOfCode": "def videos(request):\n    series_list = Series.objects.all()\n    movie_list = Movie.objects.all()\n    # Select a random poster from either movies or series\n    random_poster = None\n    if series_list or movie_list:\n        poster_list = list(series_list) + list(movie_list)\n        random_poster = random.choice(poster_list)\n    series_seasons_episodes = []\n    for series in series_list:",
+        "detail": "percy.videos_account.views",
+        "documentation": {}
+    },
+    {
+        "label": "staff_dashboard",
+        "kind": 2,
+        "importPath": "percy.videos_account.views",
+        "description": "percy.videos_account.views",
+        "peekOfCode": "def staff_dashboard(request):\n    series_list = Series.objects.all()\n    series_seasons_episodes = []\n    for series in series_list:\n        seasons = Season.objects.filter(series=series)\n        series_data = {\n            'series': series,\n            'seasons': [],\n        }\n        for season in seasons:",
+        "detail": "percy.videos_account.views",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_and_save_movies_and_series",
+        "kind": 2,
+        "importPath": "percy.fetch_tmdb_data",
+        "description": "percy.fetch_tmdb_data",
+        "peekOfCode": "def fetch_and_save_movies_and_series():\n    # Initialize TMDb API\n    tmdb = TMDb()\n    tmdb.api_key = '2a81165fe5eae7a8891629c28814cd29'\n    # Fetch popular movies\n    tmdb_movie = TMDbMovie()\n    popular_movies = tmdb_movie.popular()\n    # Fetch popular series\n    tmdb_tv = TV()\n    popular_series = tmdb_tv.popular()",
+        "detail": "percy.fetch_tmdb_data",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "percy.manage",
+        "description": "percy.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'percy.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "percy.manage",
+        "documentation": {}
+    }
+]
